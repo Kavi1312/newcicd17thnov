@@ -41,5 +41,5 @@ jobs:
          # sudo apt update -y
          # sudo apt install nginx -y
          # sudo apt start nginx
-          sudo rm -rf /var/www/html/index.html
+         # sudo rm -rf /var/www/html/index.html
           sudo cp -rf /home/ubuntu/index.html /var/www/html
