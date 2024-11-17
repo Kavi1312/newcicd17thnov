@@ -38,7 +38,7 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: ${{ secrets.PORT }}
         script: |
-          sudo apt update -y
-          sudo apt install nginx -y
-          sudo apt start nginx
+         # sudo apt update -y
+         # sudo apt install nginx -y
+         # sudo apt start nginx
           sudo cp -rf /home/ubuntu/index.html /var/www/html
