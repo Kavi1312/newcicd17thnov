@@ -40,5 +40,5 @@ jobs:
         script: |
          # sudo apt update -y
          # sudo apt install nginx -y
-         # sudo apt start nginx
+          sudo apt start nginx
           sudo cp -rf /home/ubuntu/index.html /var/www/html
